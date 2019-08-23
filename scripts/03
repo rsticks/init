@@ -1,0 +1,17 @@
+#!/bin/sh
+
+du -sh ~/
+
+echo "очистить кэш ? y/n"
+read doing
+case $doing in
+y)
+rm -rf ~/Library/*42_cache* | echo "выполнено!"
+;;
+n)
+echo "кэш не очищен"
+exit 0
+;;
+*)
+echo "Введено неправильное действие"
+esac
