@@ -1,0 +1,4 @@
+#!/bin/sh
+#внешний днс гугла
+
+nslookup slash16.org 8.8.8.8

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+USER=$1
+pkill -u $USER
+userdel $USER

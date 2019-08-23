@@ -1,0 +1,4 @@
+#!/bin/sh
+#IP, который был назначен вам сервером DHCP
+
+ifconfig en0 | grep 'inet ' | awk '{print $2}'

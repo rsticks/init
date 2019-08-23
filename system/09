@@ -1,0 +1,5 @@
+# узнать кто подключался к системе
+# w - spisok zaloginenih polzovateley
+# who - spisok polzovateley
+# whoiam (id -un (to je samoe) )- pod kakim polzovatelem ya zaloginen
+# last - istoriya podklucheniy polzovateley

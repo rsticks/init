@@ -1,0 +1,4 @@
+# чтоб узнать адрес sshd есть 2 способа
+
+# Prostoy - cat /var/run/sshd.pid
+# slojniy - ps aux | grep -e /usr/sbin/sshd | grep -v grep | tr -s " " | cut -d " " -f2

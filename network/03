@@ -1,0 +1,4 @@
+#!/bin/sh
+#MAC wi-fi
+
+ifconfig en1 | grep 'ether' | awk '{print $2}'

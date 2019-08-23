@@ -1,0 +1,4 @@
+#!/bin/sh
+
+#hostname - узнать имя
+#hosname *name* - поменять имя

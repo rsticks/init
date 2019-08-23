@@ -1,0 +1,4 @@
+#!/bin/sh
+#DNS URL
+
+nslookup slash16.org | grep 'Server' | awk '{print $2}'

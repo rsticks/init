@@ -1,0 +1,4 @@
+#!/bin/sh
+#Поиск провайдера
+
+whois slash16.org | grep 'Server' | sed 1d

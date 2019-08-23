@@ -1,0 +1,4 @@
+#!/bin/sh
+#Определить широковещательный адрес
+
+ifconfig | grep "broadcast" |  awk '{print $6}'
